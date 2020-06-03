@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+nav a{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin: 1% 12%;
+    width: 16rem;;
+}
+nav .plan{
+    text-align: center;
+    background-color: orangered;
+    display: inline-block;
+    padding: 1% 0;
+    border-radius: 10px;
+    width: 7%;
+}
+nav .learn{
+    text-align: center;
+    background-color: skyblue;
+    display: inline-block;
+    padding: 1% 0;
+    border-radius: 10px;
+    width: 7%;
+    
+}
+nav .involved{
+    text-align: center;
+    background-color: goldenrod;
+    display: inline-block;
+    padding: 1% 0;
+    border-radius: 10px;
+    width: 7%;
+}
+nav .button{
+    width: 16rem;
+}
+header h2{
+    font-size: 6rem;
+    display: inline-block;
+    margin-left: 50%;
+}
+header h5{
+    font-size: 2rem;
+    display: inline-block;
+    margin-left: 50%;
+}
+.photo img {
+    border-radius: 50%;
+    height: 10%;
+    width: 13%;
+    max-width: 100%;
+    margin: 3% 10%;
+}
+#about {
+background: paleturquoise;
+font-size: 3rem;
+text-align: center;
+margin: 5% 2%;
+padding: 1% 0;
+}
