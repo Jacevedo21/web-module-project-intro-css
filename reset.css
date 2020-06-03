@@ -15,7 +15,7 @@ nav a{
     text-decoration: none;
     letter-spacing: 1px;
     margin: 1% 12%;
-    width: 16rem;;
+    width: 16rem;
 }
 nav .plan{
     text-align: center;
@@ -48,24 +48,103 @@ nav .button{
 header h2{
     font-size: 6rem;
     display: inline-block;
-    margin-left: 50%;
+    margin: 22%;
+    padding: 0;
 }
 header h5{
-    font-size: 2rem;
+    font-size: 4rem;
     display: inline-block;
-    margin-left: 50%;
+    padding: 0;
+    margin: 0 20%;
+}
+.right p{
+    font-size: 4rem;
+    display: inline-block;
+    padding: 14% 0;
+}
+.photo {
+	width: 30%;
+	border-radius: 50%;
+	display: inline-block;
+    overflow: hidden;
 }
 .photo img {
-    border-radius: 50%;
-    height: 10%;
-    width: 13%;
-    max-width: 100%;
-    margin: 3% 10%;
+	width: 100%;
+}
+.right {
+	display: inline-block;
+	width: 60%;
 }
 #about {
 background: paleturquoise;
-font-size: 3rem;
+font-size: 5rem;
 text-align: center;
 margin: 5% 2%;
-padding: 1% 0;
+padding: 0 2% 0 2%;
+width: 100%;
+}
+#about p{
+    padding: 2% 0;
+}
+.firstPicture{
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 15%;
+    font-size: 4rem;
+    padding: 0 20%;
+}
+.firstPicture img{
+    width: 60%;
+
+}
+.secondPicture{
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 15%;
+    font-size: 4rem;
+    padding: 15% 20%;
+}
+.secondPicture img{
+    width: 60%;
+}
+.endPic img{
+    display: inline-block;
+    width: 100%;
+}
+footer a{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin: 1% 12%;
+    width: 16rem;
+}
+footer .vis{
+    text-align: center;
+    background-color: orangered;
+    display: inline-block;
+    padding: 1% 0;
+    border-radius: 10px;
+    width: 7%
+}
+footer .park{
+    text-align: center;
+    background-color: skyblue;
+    display: inline-block;
+    padding: 1% 0;
+    border-radius: 10px;
+    width: 7%;
+}
+footer .in{
+    text-align: center;
+    background-color: goldenrod;
+    display: inline-block;
+    padding: 1% 0;
+    border-radius: 10px;
+    width: 7%;  
+}
+footer .button{
+    width: 16rem;
 }
